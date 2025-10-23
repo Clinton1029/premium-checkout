@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import { PRODUCTS } from "../constants/products";
-import { useCheckoutLogic } from "../hooks/useCheckoutLogic";
-import { ProductList } from "../components/ProductList";
-import { CheckoutView } from "../components/CheckoutView";
-import { StatusView } from "../components/StatusView";
+import { PRODUCTS } from "./constants/products";
+import { useCheckoutLogic } from "./hooks/useCheckoutLogic";
+import { ProductList } from "./components/ProductList";
+import { CheckoutView } from "./components/CheckoutView";
+import { StatusView } from "./components/StatusView";
 
 export default function HomePage() {
   const logic = useCheckoutLogic();
