@@ -2,22 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom global styles */
-html, body {
-  scroll-behavior: smooth;
+body {
+  @apply bg-gradient-to-br from-slate-100 to-slate-300 min-h-screen text-gray-800 font-sans antialiased;
 }
 
-button:disabled {
-  opacity: 0.7;
-  cursor: not-allowed;
-}
-
-/* Optional: bounce animation for success icon */
-@keyframes bounce-slow {
-  0%, 100% { transform: translateY(-5%); }
-  50% { transform: translateY(0); }
-}
-
-.animate-bounce-slow {
-  animation: bounce-slow 1.5s infinite;
+h1, h2, h3 {
+  @apply font-semibold text-gray-900;
 }
