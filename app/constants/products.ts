@@ -9,23 +9,23 @@ export interface Product {
 export const PRODUCTS: Product[] = [
   {
     id: 1,
-    name: "Premium Software License",
+    name: "Pro Suite License",
     price: 129.0,
-    description: "Full feature set with 1 year of free updates.",
-    image: "https://placehold.co/100x100/4F46E5/ffffff?text=PRO",
+    description: "Unlock advanced automation tools, AI analytics, and 1-year exclusive updates.",
+    image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=300&q=80",
   },
   {
     id: 2,
-    name: "Standard Software Access",
+    name: "Starter Access",
     price: 49.0,
-    description: "Essential features for personal projects.",
-    image: "https://placehold.co/100x100/818CF8/ffffff?text=STD",
+    description: "Perfect for individuals—includes essential core features for personal projects.",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=300&q=80",
   },
   {
     id: 3,
-    name: "Lifetime Support Plan",
+    name: "Elite Support Plan",
     price: 299.0,
-    description: "Dedicated 24/7 priority support.",
-    image: "https://placehold.co/100x100/10B981/ffffff?text=VIP",
+    description: "24/7 VIP technical support with instant response and lifetime assistance.",
+    image: "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=300&q=80",
   },
 ];
